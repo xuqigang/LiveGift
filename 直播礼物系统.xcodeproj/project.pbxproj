@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CDF3FB5B2B81C084AC13103 /* libPods-直播礼物系统.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 062BE776709D662252130445 /* libPods-直播礼物系统.a */; };
+		7BB013C31F21CB2900E99E52 /* LSLivingGiftListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB013C21F21CB2900E99E52 /* LSLivingGiftListView.m */; };
+		7BB013C61F21CB3300E99E52 /* LSGiftCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB013C51F21CB3300E99E52 /* LSGiftCollectionViewCell.m */; };
+		7BB013C91F21CB8800E99E52 /* LSGiftCollectionViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB013C81F21CB8800E99E52 /* LSGiftCollectionViewCellModel.m */; };
+		7BB013CC1F21CBC300E99E52 /* LSCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB013CB1F21CBC300E99E52 /* LSCollectionViewFlowLayout.m */; };
+		7BB41DB11F17BD5B00B7857C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB41DB01F17BD5B00B7857C /* main.m */; };
+		7BB41DB41F17BD5B00B7857C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB41DB31F17BD5B00B7857C /* AppDelegate.m */; };
+		7BB41DB71F17BD5B00B7857C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB41DB61F17BD5B00B7857C /* ViewController.m */; };
+		7BB41DBA1F17BD5B00B7857C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41DB81F17BD5B00B7857C /* Main.storyboard */; };
+		7BB41DBC1F17BD5B00B7857C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41DBB1F17BD5B00B7857C /* Assets.xcassets */; };
+		7BB41DBF1F17BD5B00B7857C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41DBD1F17BD5B00B7857C /* LaunchScreen.storyboard */; };
+		7BB41DCA1F17BD5B00B7857C /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB41DC91F17BD5B00B7857C /* ______UITests.m */; };
+		7BB41DE51F17BDB200B7857C /* AnimOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB41DD61F17BDB200B7857C /* AnimOperation.m */; };
+		7BB41DE61F17BDB200B7857C /* AnimOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB41DD81F17BDB200B7857C /* AnimOperationManager.m */; };
+		7BB41DE71F17BDB200B7857C /* GiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB41DDA1F17BDB200B7857C /* GiftModel.m */; };
+		7BB41DE91F17BDB200B7857C /* LSGiftPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB41DDE1F17BDB200B7857C /* LSGiftPlayer.m */; };
+		7BB41DEA1F17BDB200B7857C /* LSLivingGiftShowLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB41DE01F17BDB200B7857C /* LSLivingGiftShowLayerView.m */; };
+		7BB41DEB1F17BDB200B7857C /* PresentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB41DE21F17BDB200B7857C /* PresentView.m */; };
+		7BB41DEC1F17BDB200B7857C /* ShakeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB41DE41F17BDB200B7857C /* ShakeLabel.m */; };
+		7BB41DF51F17DD9900B7857C /* lw1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41DEF1F17DD9900B7857C /* lw1@2x.png */; };
+		7BB41DF61F17DD9900B7857C /* lw1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41DF01F17DD9900B7857C /* lw1@3x.png */; };
+		7BB41DF71F17DD9900B7857C /* lw2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41DF11F17DD9900B7857C /* lw2@2x.png */; };
+		7BB41DF81F17DD9900B7857C /* lw2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41DF21F17DD9900B7857C /* lw2@3x.png */; };
+		7BB41DF91F17DD9900B7857C /* lw3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41DF31F17DD9900B7857C /* lw3@2x.png */; };
+		7BB41DFA1F17DD9900B7857C /* lw3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41DF41F17DD9900B7857C /* lw3@3x.png */; };
+		7BB41DFD1F17DDDF00B7857C /* lw0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41DFB1F17DDDF00B7857C /* lw0@2x.png */; };
+		7BB41DFE1F17DDDF00B7857C /* lw0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41DFC1F17DDDF00B7857C /* lw0@3x.png */; };
+		7BB41E011F17DDFB00B7857C /* lw4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41DFF1F17DDFB00B7857C /* lw4@2x.png */; };
+		7BB41E021F17DDFB00B7857C /* lw4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41E001F17DDFB00B7857C /* lw4@3x.png */; };
+		7BB41E041F17E3E700B7857C /* 邯郸-韩绍杰邯郸体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41E031F17E3E700B7857C /* 邯郸-韩绍杰邯郸体.ttf */; };
+		7BB41E061F17E56000B7857C /* HYYanKaiF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41E051F17E56000B7857C /* HYYanKaiF.ttf */; };
+		7BB41E081F17E84000B7857C /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB41E071F17E84000B7857C /* person.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BB41DC61F17BD5B00B7857C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB41DA41F17BD5B00B7857C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB41DAB1F17BD5B00B7857C;
+			remoteInfo = "直播礼物系统";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062BE776709D662252130445 /* libPods-直播礼物系统.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-直播礼物系统.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A98A766EB5873D5778E26C4 /* Pods-直播礼物系统.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-直播礼物系统.debug.xcconfig"; path = "Pods/Target Support Files/Pods-直播礼物系统/Pods-直播礼物系统.debug.xcconfig"; sourceTree = "<group>"; };
+		7BB013C11F21CB2900E99E52 /* LSLivingGiftListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLivingGiftListView.h; sourceTree = "<group>"; };
+		7BB013C21F21CB2900E99E52 /* LSLivingGiftListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLivingGiftListView.m; sourceTree = "<group>"; };
+		7BB013C41F21CB3300E99E52 /* LSGiftCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSGiftCollectionViewCell.h; sourceTree = "<group>"; };
+		7BB013C51F21CB3300E99E52 /* LSGiftCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSGiftCollectionViewCell.m; sourceTree = "<group>"; };
+		7BB013C71F21CB8800E99E52 /* LSGiftCollectionViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSGiftCollectionViewCellModel.h; sourceTree = "<group>"; };
+		7BB013C81F21CB8800E99E52 /* LSGiftCollectionViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSGiftCollectionViewCellModel.m; sourceTree = "<group>"; };
+		7BB013CA1F21CBC300E99E52 /* LSCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		7BB013CB1F21CBC300E99E52 /* LSCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		7BB41DAC1F17BD5B00B7857C /* 直播礼物系统.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "直播礼物系统.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB41DB01F17BD5B00B7857C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BB41DB21F17BD5B00B7857C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BB41DB31F17BD5B00B7857C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BB41DB51F17BD5B00B7857C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BB41DB61F17BD5B00B7857C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BB41DB91F17BD5B00B7857C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BB41DBB1F17BD5B00B7857C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BB41DBE1F17BD5B00B7857C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BB41DC01F17BD5B00B7857C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB41DC51F17BD5B00B7857C /* 直播礼物系统UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "直播礼物系统UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB41DC91F17BD5B00B7857C /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		7BB41DCB1F17BD5B00B7857C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB41DD51F17BDB200B7857C /* AnimOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimOperation.h; sourceTree = "<group>"; };
+		7BB41DD61F17BDB200B7857C /* AnimOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimOperation.m; sourceTree = "<group>"; };
+		7BB41DD71F17BDB200B7857C /* AnimOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimOperationManager.h; sourceTree = "<group>"; };
+		7BB41DD81F17BDB200B7857C /* AnimOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimOperationManager.m; sourceTree = "<group>"; };
+		7BB41DD91F17BDB200B7857C /* GiftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftModel.h; sourceTree = "<group>"; };
+		7BB41DDA1F17BDB200B7857C /* GiftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftModel.m; sourceTree = "<group>"; };
+		7BB41DDD1F17BDB200B7857C /* LSGiftPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSGiftPlayer.h; sourceTree = "<group>"; };
+		7BB41DDE1F17BDB200B7857C /* LSGiftPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSGiftPlayer.m; sourceTree = "<group>"; };
+		7BB41DDF1F17BDB200B7857C /* LSLivingGiftShowLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLivingGiftShowLayerView.h; sourceTree = "<group>"; };
+		7BB41DE01F17BDB200B7857C /* LSLivingGiftShowLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLivingGiftShowLayerView.m; sourceTree = "<group>"; };
+		7BB41DE11F17BDB200B7857C /* PresentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentView.h; sourceTree = "<group>"; };
+		7BB41DE21F17BDB200B7857C /* PresentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentView.m; sourceTree = "<group>"; };
+		7BB41DE31F17BDB200B7857C /* ShakeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeLabel.h; sourceTree = "<group>"; };
+		7BB41DE41F17BDB200B7857C /* ShakeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeLabel.m; sourceTree = "<group>"; };
+		7BB41DED1F17BE0400B7857C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7BB41DEF1F17DD9900B7857C /* lw1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lw1@2x.png"; sourceTree = "<group>"; };
+		7BB41DF01F17DD9900B7857C /* lw1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lw1@3x.png"; sourceTree = "<group>"; };
+		7BB41DF11F17DD9900B7857C /* lw2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lw2@2x.png"; sourceTree = "<group>"; };
+		7BB41DF21F17DD9900B7857C /* lw2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lw2@3x.png"; sourceTree = "<group>"; };
+		7BB41DF31F17DD9900B7857C /* lw3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lw3@2x.png"; sourceTree = "<group>"; };
+		7BB41DF41F17DD9900B7857C /* lw3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lw3@3x.png"; sourceTree = "<group>"; };
+		7BB41DFB1F17DDDF00B7857C /* lw0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lw0@2x.png"; sourceTree = "<group>"; };
+		7BB41DFC1F17DDDF00B7857C /* lw0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lw0@3x.png"; sourceTree = "<group>"; };
+		7BB41DFF1F17DDFB00B7857C /* lw4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lw4@2x.png"; sourceTree = "<group>"; };
+		7BB41E001F17DDFB00B7857C /* lw4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lw4@3x.png"; sourceTree = "<group>"; };
+		7BB41E031F17E3E700B7857C /* 邯郸-韩绍杰邯郸体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "邯郸-韩绍杰邯郸体.ttf"; sourceTree = "<group>"; };
+		7BB41E051F17E56000B7857C /* HYYanKaiF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HYYanKaiF.ttf; sourceTree = "<group>"; };
+		7BB41E071F17E84000B7857C /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
+		C987095B2929A22C7652FCBE /* Pods-直播礼物系统.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-直播礼物系统.release.xcconfig"; path = "Pods/Target Support Files/Pods-直播礼物系统/Pods-直播礼物系统.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB41DA91F17BD5B00B7857C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDF3FB5B2B81C084AC13103 /* libPods-直播礼物系统.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB41DC21F17BD5B00B7857C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5203A621627980BA7762B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A98A766EB5873D5778E26C4 /* Pods-直播礼物系统.debug.xcconfig */,
+				C987095B2929A22C7652FCBE /* Pods-直播礼物系统.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5DC4630A5F11445FF556924D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				062BE776709D662252130445 /* libPods-直播礼物系统.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BB013C01F21CB1C00E99E52 /* LSLivingGiftList */ = {
+			isa = PBXGroup;
+			children = (
+				7BB013C11F21CB2900E99E52 /* LSLivingGiftListView.h */,
+				7BB013C21F21CB2900E99E52 /* LSLivingGiftListView.m */,
+				7BB013C41F21CB3300E99E52 /* LSGiftCollectionViewCell.h */,
+				7BB013C51F21CB3300E99E52 /* LSGiftCollectionViewCell.m */,
+				7BB013C71F21CB8800E99E52 /* LSGiftCollectionViewCellModel.h */,
+				7BB013C81F21CB8800E99E52 /* LSGiftCollectionViewCellModel.m */,
+				7BB013CA1F21CBC300E99E52 /* LSCollectionViewFlowLayout.h */,
+				7BB013CB1F21CBC300E99E52 /* LSCollectionViewFlowLayout.m */,
+			);
+			path = LSLivingGiftList;
+			sourceTree = "<group>";
+		};
+		7BB41DA31F17BD5B00B7857C = {
+			isa = PBXGroup;
+			children = (
+				7BB41DAE1F17BD5B00B7857C /* 直播礼物系统 */,
+				7BB41DC81F17BD5B00B7857C /* 直播礼物系统UITests */,
+				7BB41DAD1F17BD5B00B7857C /* Products */,
+				0A5203A621627980BA7762B3 /* Pods */,
+				5DC4630A5F11445FF556924D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB41DAD1F17BD5B00B7857C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB41DAC1F17BD5B00B7857C /* 直播礼物系统.app */,
+				7BB41DC51F17BD5B00B7857C /* 直播礼物系统UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB41DAE1F17BD5B00B7857C /* 直播礼物系统 */ = {
+			isa = PBXGroup;
+			children = (
+				7BB41DD41F17BDB200B7857C /* LSGiftSystem */,
+				7BB41DB21F17BD5B00B7857C /* AppDelegate.h */,
+				7BB41DB31F17BD5B00B7857C /* AppDelegate.m */,
+				7BB41DB51F17BD5B00B7857C /* ViewController.h */,
+				7BB41DB61F17BD5B00B7857C /* ViewController.m */,
+				7BB41DB81F17BD5B00B7857C /* Main.storyboard */,
+				7BB41DBB1F17BD5B00B7857C /* Assets.xcassets */,
+				7BB41DBD1F17BD5B00B7857C /* LaunchScreen.storyboard */,
+				7BB41DC01F17BD5B00B7857C /* Info.plist */,
+				7BB41DAF1F17BD5B00B7857C /* Supporting Files */,
+			);
+			path = "直播礼物系统";
+			sourceTree = "<group>";
+		};
+		7BB41DAF1F17BD5B00B7857C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BB41E071F17E84000B7857C /* person.png */,
+				7BB41E051F17E56000B7857C /* HYYanKaiF.ttf */,
+				7BB41E031F17E3E700B7857C /* 邯郸-韩绍杰邯郸体.ttf */,
+				7BB41DEE1F17DD8E00B7857C /* GiftSource */,
+				7BB41DB01F17BD5B00B7857C /* main.m */,
+				7BB41DED1F17BE0400B7857C /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BB41DC81F17BD5B00B7857C /* 直播礼物系统UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB41DC91F17BD5B00B7857C /* ______UITests.m */,
+				7BB41DCB1F17BD5B00B7857C /* Info.plist */,
+			);
+			path = "直播礼物系统UITests";
+			sourceTree = "<group>";
+		};
+		7BB41DD41F17BDB200B7857C /* LSGiftSystem */ = {
+			isa = PBXGroup;
+			children = (
+				7BB013C01F21CB1C00E99E52 /* LSLivingGiftList */,
+				7BB41DD51F17BDB200B7857C /* AnimOperation.h */,
+				7BB41DD61F17BDB200B7857C /* AnimOperation.m */,
+				7BB41DD71F17BDB200B7857C /* AnimOperationManager.h */,
+				7BB41DD81F17BDB200B7857C /* AnimOperationManager.m */,
+				7BB41DD91F17BDB200B7857C /* GiftModel.h */,
+				7BB41DDA1F17BDB200B7857C /* GiftModel.m */,
+				7BB41DDD1F17BDB200B7857C /* LSGiftPlayer.h */,
+				7BB41DDE1F17BDB200B7857C /* LSGiftPlayer.m */,
+				7BB41DDF1F17BDB200B7857C /* LSLivingGiftShowLayerView.h */,
+				7BB41DE01F17BDB200B7857C /* LSLivingGiftShowLayerView.m */,
+				7BB41DE11F17BDB200B7857C /* PresentView.h */,
+				7BB41DE21F17BDB200B7857C /* PresentView.m */,
+				7BB41DE31F17BDB200B7857C /* ShakeLabel.h */,
+				7BB41DE41F17BDB200B7857C /* ShakeLabel.m */,
+			);
+			path = LSGiftSystem;
+			sourceTree = "<group>";
+		};
+		7BB41DEE1F17DD8E00B7857C /* GiftSource */ = {
+			isa = PBXGroup;
+			children = (
+				7BB41DEF1F17DD9900B7857C /* lw1@2x.png */,
+				7BB41DF01F17DD9900B7857C /* lw1@3x.png */,
+				7BB41DF11F17DD9900B7857C /* lw2@2x.png */,
+				7BB41DF21F17DD9900B7857C /* lw2@3x.png */,
+				7BB41DF31F17DD9900B7857C /* lw3@2x.png */,
+				7BB41DF41F17DD9900B7857C /* lw3@3x.png */,
+				7BB41DFB1F17DDDF00B7857C /* lw0@2x.png */,
+				7BB41DFC1F17DDDF00B7857C /* lw0@3x.png */,
+				7BB41DFF1F17DDFB00B7857C /* lw4@2x.png */,
+				7BB41E001F17DDFB00B7857C /* lw4@3x.png */,
+			);
+			path = GiftSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BB41DAB1F17BD5B00B7857C /* 直播礼物系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB41DCE1F17BD5B00B7857C /* Build configuration list for PBXNativeTarget "直播礼物系统" */;
+			buildPhases = (
+				21A67F7E1D97E348B29AFF10 /* [CP] Check Pods Manifest.lock */,
+				7BB41DA81F17BD5B00B7857C /* Sources */,
+				7BB41DA91F17BD5B00B7857C /* Frameworks */,
+				7BB41DAA1F17BD5B00B7857C /* Resources */,
+				BBC3490C3F8CC8BD9FB61EBE /* [CP] Embed Pods Frameworks */,
+				406D2C1541CE9B131A418BB0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "直播礼物系统";
+			productName = "直播礼物系统";
+			productReference = 7BB41DAC1F17BD5B00B7857C /* 直播礼物系统.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BB41DC41F17BD5B00B7857C /* 直播礼物系统UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB41DD11F17BD5B00B7857C /* Build configuration list for PBXNativeTarget "直播礼物系统UITests" */;
+			buildPhases = (
+				7BB41DC11F17BD5B00B7857C /* Sources */,
+				7BB41DC21F17BD5B00B7857C /* Frameworks */,
+				7BB41DC31F17BD5B00B7857C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB41DC71F17BD5B00B7857C /* PBXTargetDependency */,
+			);
+			name = "直播礼物系统UITests";
+			productName = "直播礼物系统UITests";
+			productReference = 7BB41DC51F17BD5B00B7857C /* 直播礼物系统UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB41DA41F17BD5B00B7857C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "徐其岗";
+				TargetAttributes = {
+					7BB41DAB1F17BD5B00B7857C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A384Z6ZPQF;
+						ProvisioningStyle = Automatic;
+					};
+					7BB41DC41F17BD5B00B7857C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7BB41DAB1F17BD5B00B7857C;
+					};
+				};
+			};
+			buildConfigurationList = 7BB41DA71F17BD5B00B7857C /* Build configuration list for PBXProject "直播礼物系统" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BB41DA31F17BD5B00B7857C;
+			productRefGroup = 7BB41DAD1F17BD5B00B7857C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB41DAB1F17BD5B00B7857C /* 直播礼物系统 */,
+				7BB41DC41F17BD5B00B7857C /* 直播礼物系统UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BB41DAA1F17BD5B00B7857C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB41E021F17DDFB00B7857C /* lw4@3x.png in Resources */,
+				7BB41DFE1F17DDDF00B7857C /* lw0@3x.png in Resources */,
+				7BB41DF61F17DD9900B7857C /* lw1@3x.png in Resources */,
+				7BB41E011F17DDFB00B7857C /* lw4@2x.png in Resources */,
+				7BB41DF51F17DD9900B7857C /* lw1@2x.png in Resources */,
+				7BB41DFA1F17DD9900B7857C /* lw3@3x.png in Resources */,
+				7BB41DF81F17DD9900B7857C /* lw2@3x.png in Resources */,
+				7BB41DF91F17DD9900B7857C /* lw3@2x.png in Resources */,
+				7BB41E081F17E84000B7857C /* person.png in Resources */,
+				7BB41DFD1F17DDDF00B7857C /* lw0@2x.png in Resources */,
+				7BB41DF71F17DD9900B7857C /* lw2@2x.png in Resources */,
+				7BB41DBF1F17BD5B00B7857C /* LaunchScreen.storyboard in Resources */,
+				7BB41E041F17E3E700B7857C /* 邯郸-韩绍杰邯郸体.ttf in Resources */,
+				7BB41DBC1F17BD5B00B7857C /* Assets.xcassets in Resources */,
+				7BB41DBA1F17BD5B00B7857C /* Main.storyboard in Resources */,
+				7BB41E061F17E56000B7857C /* HYYanKaiF.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB41DC31F17BD5B00B7857C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21A67F7E1D97E348B29AFF10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		406D2C1541CE9B131A418BB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-直播礼物系统/Pods-直播礼物系统-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC3490C3F8CC8BD9FB61EBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-直播礼物系统/Pods-直播礼物系统-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB41DA81F17BD5B00B7857C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB013C91F21CB8800E99E52 /* LSGiftCollectionViewCellModel.m in Sources */,
+				7BB41DEB1F17BDB200B7857C /* PresentView.m in Sources */,
+				7BB41DE51F17BDB200B7857C /* AnimOperation.m in Sources */,
+				7BB41DB71F17BD5B00B7857C /* ViewController.m in Sources */,
+				7BB41DEA1F17BDB200B7857C /* LSLivingGiftShowLayerView.m in Sources */,
+				7BB41DB41F17BD5B00B7857C /* AppDelegate.m in Sources */,
+				7BB013C61F21CB3300E99E52 /* LSGiftCollectionViewCell.m in Sources */,
+				7BB013C31F21CB2900E99E52 /* LSLivingGiftListView.m in Sources */,
+				7BB41DEC1F17BDB200B7857C /* ShakeLabel.m in Sources */,
+				7BB41DE71F17BDB200B7857C /* GiftModel.m in Sources */,
+				7BB41DE61F17BDB200B7857C /* AnimOperationManager.m in Sources */,
+				7BB41DB11F17BD5B00B7857C /* main.m in Sources */,
+				7BB41DE91F17BDB200B7857C /* LSGiftPlayer.m in Sources */,
+				7BB013CC1F21CBC300E99E52 /* LSCollectionViewFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB41DC11F17BD5B00B7857C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB41DCA1F17BD5B00B7857C /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BB41DC71F17BD5B00B7857C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB41DAB1F17BD5B00B7857C /* 直播礼物系统 */;
+			targetProxy = 7BB41DC61F17BD5B00B7857C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BB41DB81F17BD5B00B7857C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB41DB91F17BD5B00B7857C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BB41DBD1F17BD5B00B7857C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB41DBE1F17BD5B00B7857C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BB41DCC1F17BD5B00B7857C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BB41DCD1F17BD5B00B7857C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB41DCF1F17BD5B00B7857C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A98A766EB5873D5778E26C4 /* Pods-直播礼物系统.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A384Z6ZPQF;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/直播礼物系统/PrefixHeader.pch";
+				INFOPLIST_FILE = "直播礼物系统/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gift.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BB41DD01F17BD5B00B7857C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C987095B2929A22C7652FCBE /* Pods-直播礼物系统.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A384Z6ZPQF;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/直播礼物系统/PrefixHeader.pch";
+				INFOPLIST_FILE = "直播礼物系统/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gift.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BB41DD21F17BD5B00B7857C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "直播礼物系统UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gift.app.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "直播礼物系统";
+			};
+			name = Debug;
+		};
+		7BB41DD31F17BD5B00B7857C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "直播礼物系统UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gift.app.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "直播礼物系统";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB41DA71F17BD5B00B7857C /* Build configuration list for PBXProject "直播礼物系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB41DCC1F17BD5B00B7857C /* Debug */,
+				7BB41DCD1F17BD5B00B7857C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB41DCE1F17BD5B00B7857C /* Build configuration list for PBXNativeTarget "直播礼物系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB41DCF1F17BD5B00B7857C /* Debug */,
+				7BB41DD01F17BD5B00B7857C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB41DD11F17BD5B00B7857C /* Build configuration list for PBXNativeTarget "直播礼物系统UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB41DD21F17BD5B00B7857C /* Debug */,
+				7BB41DD31F17BD5B00B7857C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB41DA41F17BD5B00B7857C /* Project object */;
+}

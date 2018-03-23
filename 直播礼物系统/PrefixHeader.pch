@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  直播礼物系统
+//
+//  Created by Hanxiaojie on 2017/7/13.
+//  Copyright © 2017年 徐其岗. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//字符串转换
+#define ToString(x) [NSString stringWithFormat:@"%@",x]
+#define ToNumber(x) [NSString stringWithFormat:@"%@",x]
+#define ScreenWidth                              CGRectGetWidth([UIScreen mainScreen].bounds)
+#define ScreenHeight                             CGRectGetHeight([UIScreen mainScreen].bounds)
+
+#define UISreenWidthScale   ScreenWidth/320.0  //以iphone5 屏幕为基准
+#define UIScale(x)   x*UISreenWidthScale
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
+#define FONT(s) [UIFont systemFontOfSize:UIScale(s)]
+#define NAVI_COLOR [UIColor whiteColor]
+
+#define FONT(s) [UIFont systemFontOfSize:UIScale(s)]
+
+#import <Masonry.h>
+#endif /* PrefixHeader_pch */
